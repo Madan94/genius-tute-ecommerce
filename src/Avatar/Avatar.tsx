@@ -1,12 +1,12 @@
 import PropTypes from "prop-types";
-import React from "react";
+import * as React from "react";
 
 interface Props {
   avatarVariant: "default";
   className: any;
 }
 
-export const Avatar = ({ avatarVariant, className }: Props): JSX.Element => {
+export const Avatar: React.FC<Props> = ({ avatarVariant, className }) => {
   return (
     <div
       className={`w-[618px] h-[340px] rounded-[10px] bg-cover bg-[50%_50%] ${className}`}

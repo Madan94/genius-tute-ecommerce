@@ -206,7 +206,7 @@ const Footer = () => {
               </li>
               <li>
                 <a className="ease-out duration-200 hover:text-blue text-white" href="#">
-                  FAQ's
+                  FAQ&apos;s
                 </a>
               </li>
             </ul>

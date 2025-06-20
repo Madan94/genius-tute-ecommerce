@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import * as React from "react";
 import iconDelivery from "./icon-delivery.svg";
 import iconSecure from "./icon-secure.svg";
 import mdiCashOnDelivery from "./mdi-cash-on-delivery.svg";
@@ -44,7 +44,7 @@ const Divider = () => (
   />
 );
 
-export const FeatureBar = (): JSX.Element => {
+export const FeatureBar: React.FC = () => {
   return (
     <section
       className="w-full max-w-full h-[117px] bg-[#bfff00] flex items-center justify-center gap-10 px-4"

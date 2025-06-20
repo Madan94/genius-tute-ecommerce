@@ -11,6 +11,7 @@ import { useDispatch } from "react-redux";
 import { AppDispatch } from "@/redux/store";
 import { Product } from "@/types/product";
 import { ChevronDown,ShoppingCart, Star } from "lucide-react";
+
 const ShopDetails = ({ item }: { item: Product }) => {
   const { openPreviewModal } = usePreviewSlider();
   const [previewImg, setPreviewImg] = useState(0);
@@ -447,7 +448,7 @@ const chapters = [
               <div className="flex flex-col md:flex-row gap-6">
                 {/* Left Image Section */}
                 <div className="flex-shrink-0">
-                  <img
+                  <Image
                     src="https://d1.awsstatic.com/training-and-certification/Certification%20Badges/AWS-Certified_Cloud-Practitioner_512x512.7a5f4c1b1d65d660cfa0c3b5b5ef7ed1973d6fbf.png"
                     alt="Instructor"
                     className="rounded-xl w-full md:w-80"

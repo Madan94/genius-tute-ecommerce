@@ -1,13 +1,13 @@
 "use client";
 
-import React from "react";
+import * as React from "react";
 import { Avatar } from "../Avatar/Avatar";
 import { Button } from "../Button/Button";
 import { Card } from "../Card/Card";
 import { Select } from "../Select/Select";
 import group from "./group.png";
-
-export const Box = (): JSX.Element => {
+import Image from "next/image";
+export const Box = (): React.JSX.Element => {
   return (
     <div className="relative w-[1346px] h-[1667px]">
       <div className="fixed w-[1372px] h-[1667px] top-0 left-0">
@@ -95,7 +95,7 @@ export const Box = (): JSX.Element => {
         </div>
 
         <div className="flex w-[245px] h-[72px] items-center justify-center gap-2.5 px-[75px] py-[22px] absolute top-[642px] left-[666px] rounded-[5px] border border-solid border-[#d46336]">
-          <img
+          <Image
             className="relative w-[34.94px] h-[33.61px] mt-[-2.80px] mb-[-2.80px] ml-[-43.97px]"
             alt="Group"
             src={group.src}

@@ -41,7 +41,7 @@ const CounDown = () => {
           </h2>
 
           <p className="font-bold text-dark text-5xl sm:text-5xl mb-2">
-            Don't Miss Such a deal. Hurry Up.
+            Don&apos;t Miss Such a deal. Hurry Up.
           </p>
 
           {/* CTA Button */}
